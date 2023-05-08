@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@media (max-width: 960px)
+body {
+  background-color: rgb(246, 245, 244);
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  color: rgb(35, 33, 33);
+  font-size: 30px;
+  background: white;
+}
+
+img {
+  margin:auto;
+}
+
+.round{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.round{
+  width: 10%;
+  height: 20vh;
+  border-radius: 50%;
+  border: 10px, solid, black;
+}
+
+p {
+  color: rgb(8, 8, 15);
+}
+
+div {
+  border: none;
+  text-align: center;
+}
+
+button{
+  color: rgb(32, 32, 36);
+  position: relative;
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+button:hover{
+  color: blue;
+}
+
+ul{
+  background-color: rgb(235, 235, 241);
+  text-align: center;
+}
+
+.list-inline > li {
+  width: 20px;
+  color:rgb(8, 8, 205);
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+  cursor: pointer;
+  overflow:pointer;
+  position: relative;
+  text-decoration: none;
+}
+
+li{
+  width: 200px;
+  height: 300px;
+}
+
+a{
+  color: rgb(11, 11, 11);
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+a:hover{
+  color: rgb(226, 12, 12);
+}
+
+a{
+  box-sizing: border-box;
+  box-shadow: 0px 20px 20px rgb(236, 162, 162);
+
+}
